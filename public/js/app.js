@@ -1,23 +1,3 @@
-console.log('client side js');
-
-//fetching data from url
-// fetch('http://puzzle.mead.io/puzzle').then((response) =>{
-//     response.json().then((data) =>{
-//         console.log(data);
-//     })
-// })
-
-// fetch('http://localhost:3000/weather?address=abc').then((response) =>{
-//     response.json().then((data) =>{
-//         if(data.TypeError){
-//             console.log(data.TypeError);
-//         }
-//        console.log(data);
-//         console.log(data.Weather)
-//         console.log(data.Location);
-//     })
-// })
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const mssg1 = document.querySelector('#mssg1')
